@@ -182,9 +182,30 @@ export default class Home extends Component{
 									</a>
 								
 
-   							 </div>
+   							 </div><br/>
                
-	
+	<div className="container content">
+		<div style={{"margin-left":"-20px"}}>
+            <table>
+                <tbody>
+                    <tr>
+                       {/* <td valign="top" style={{"border":"0px","width":"10px"}}>
+                            <section className="coll" style={{"color":"red"}}>Announcements:</section>
+                        </td> */}
+                        <td style={{"background-color":"#f6f6f6","border":"0px"}}>
+                            <section className="coll_inner" >
+                                <marquee direction="scroll" srollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
+                                    
+                                    <a href="/#/AdmissionsReg" style={{"text-decoration":"none","color":"red","font-weight":"bold"}}>
+                                        Admissions Registration Form
+                                    </a>
+                                </marquee></section>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+	</div>
 	<div className="row cols-wrapper">
 		<div className="col-md-9 col-xs-12 col-sm-6">
 			<h3 className="heading">introducing SIMS</h3>

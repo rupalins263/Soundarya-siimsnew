@@ -21,6 +21,7 @@ import Commerce from './Department/Commerce';
 import BCA from './Department/Bca';
 import Physical from './Department/Physical';
 import Admissions from './Admissions/Admissions';
+import AdmissionsReg from './Admissions/AdmissionsReg';
 import Library from './Campus/Library';
 import Student from './Campus/Student';
 import CommerceClub from './Campus/CommerceAndManagement';
@@ -38,6 +39,7 @@ import Gallery from './Gallery/Gallery';
 import Privacy from './About/Privacy';
 import NewsSingle from './About/NewsSingle';
 import SpecialCoarse from './About/SpecialCoarse';
+
 class App extends Component {
   render() {
     return (
@@ -57,6 +59,7 @@ class App extends Component {
                <Route exact path="/BCA" component={BCA} />
                     <Route exact path="/Physical" component={Physical} />
                       <Route exact path="/Admissions" component={Admissions} />
+                      <Route exact path="/AdmissionsReg" component={AdmissionsReg} />
                         <Route exact path="/Student" component={Student}/>
                       <Route exact path="/Library" component={Library} />
                       <Route exact path="/CommerceClub" component={CommerceClub} />

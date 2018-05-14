@@ -130,7 +130,8 @@ export default class Nav extends Component{
         
         <li className="nav-item"><a href="/#/Admissions">Admission Process</a></li>
     
-                                
+        <li className="nav-item"><a href="/#/AdmissionsReg">Admission Registration Form</a></li>
+                       
         
         <li className="nav-item"><a href="/#/Admissions#eligibility">Eligibility Criteria</a></li>
     
