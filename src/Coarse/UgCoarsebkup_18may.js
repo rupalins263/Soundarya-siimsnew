@@ -6,7 +6,7 @@ export default class Nav extends Component{
     render(){
 
         return(
-            <div className="content container" style={{marginTop:"30px"}}>
+            <div className="content container">
             <div className="page-wrapper">
                 <header className="page-heading clearfix">
                     <h1 className="heading-title pull-left">Courses Offered</h1>
@@ -26,8 +26,6 @@ export default class Nav extends Component{
 								<ul className="custom-list-style tik hand-right">
 									<li>B.Com</li>
 									<li>BBA</li>
-									<li>BBA Aviation Management</li>
-									<li>BA-JOURNALISM</li>
 									<li>BCA</li>
 									<li>B.Sc</li>
 								</ul>
@@ -38,10 +36,8 @@ export default class Nav extends Component{
 									<ul className="nav nav-tabs">
 										<li className="active"><a href="#tab1" data-toggle="tab" aria-expanded="true">B.Com</a></li>
 										<li className=""><a href="#tab2" data-toggle="tab" aria-expanded="false">BBA</a></li>
-										<li className=""><a href="#tab3" data-toggle="tab" aria-expanded="false">BBA Aviation Management</a></li>
-										<li className=""><a href="#tab4" data-toggle="tab" aria-expanded="false">BA-JOURNALISM</a></li>
-										<li className=""><a href="#tab5" data-toggle="tab" aria-expanded="false">BCA</a></li>
-										<li className=""><a href="#tab6" data-toggle="tab" aria-expanded="false">B.Sc</a></li>										
+										<li className=""><a href="#tab3" data-toggle="tab" aria-expanded="false">BCA</a></li>
+										<li className=""><a href="#tab4" data-toggle="tab" aria-expanded="false">B.Sc</a></li>
 									</ul>
 									<div className="tab-content col-md-12">
 										<div className="tab-pane active" id="tab1">
@@ -299,32 +295,6 @@ export default class Nav extends Component{
 											</ul><p></p>
 										</div>
 										<div className="tab-pane" id="tab3">
-											<h3 className="title" style={{"margin": "10px 0 20px"}}>BBA Aviation Management</h3>
-											<p>The main objective of BBA Aviation Management is to create skilled professionals for Aviation sector &amp;
-												allied fields to travel &amp; tourism for those with an entrepreneurial bend to acquire the skills to start their
-												own set up. The program is highly relevant as it addresses the Business requirements of the Aviation
-												Sector. During the course candidates will learn about Air- port planning, Air Port security, passenger
-												forecasting, Aerodrome works, Fire safety and many other topics relating to Aviation industry.</p>
-											<p><strong>Eligibility: </strong> 10+2/ Two years pre – university course of Karnataka state or its equivalent.</p>
-											<p><strong>Duration: </strong> 3 years (6 semesters)</p>
-											<p><strong>Scheme: </strong> Choice based credit system</p>
-											<p><strong>Medium of instruction: </strong> English</p>
-											<p><strong>Course matrix : </strong> As prescribed by Bangalore University</p>											
-										</div>
-										<div className="tab-pane" id="tab4">
-											<h3 className="title" style={{"margin": "10px 0 20px"}}>BA – JOURNALISM</h3>
-											<h4 className="title" style={{"margin": "10px 0 20px"}}>JPP/JPE</h4>
-											<p>The main objective of BA – JOURNALISM course is to prepare students for a
-												career in Media and Journalism (Printed electronic). It equips the students
-												with the requisite knowledge and various skills like reporting, journalism,
-												writing, editing, news-paper presentation, news compilation etc.</p>
-											<p><strong>Eligibility: </strong> 10+2/ Two years pre – university course of Karnataka state or its equivalent.</p>
-											<p><strong>Duration: </strong> 3 years (6 semesters)</p>
-											<p><strong>Scheme: </strong> Choice based credit system</p>
-											<p><strong>Medium of instruction: </strong> English</p>
-											<p><strong>Course matrix : </strong> As prescribed by Bangalore University</p>				
-										</div>
-										<div className="tab-pane" id="tab5">
 											<h3 className="title" style={{"margin": "10px 0 20px"}}>BCA (Bachelor of Computer Application )</h3>
 											<p>BCA is a new age degree course in the field of computer applications. The duration of the course is normally three years. After completion of the BCA course, students can opt for masters or they can even try for job opportunities.</p>
 											<p>Bachelor of Computer Applications is a course that is customized for students wishing to shine in the field of computers and information technology. If you are interested in computer related field, then BCA is the perfect course for you.</p>
@@ -349,7 +319,7 @@ export default class Nav extends Component{
 												<li>Campus interviews.</li>
 											</ul>
 										</div>
-										<div className="tab-pane" id="tab6">
+										<div className="tab-pane" id="tab4">
 											<h3 className="title" style={{"margin": "10px 0 20px"}}>B.Sc (Bachelor of Science )</h3>
 											<p>Bachelor of Science (B.Sc.) is one of the most popular academic degree courses among the science students after class 12th. The duration of B.Sc. degree course ranges from 3 years to 5 years, depending upon the country in which you are studying for eg. In India the course is generally of 3 years whereas in Argentina the course duration is 5 years.</p>
 											<p>The B.Sc. degree course is a graduate degree course in Science this can be a part-time or full-time course but at SIMS we have full-time B.Sc. programs. This course forms the basis of science and comprises of the subjects like physics, chemistry, biology, zoology, botany, Bio-Technology, mathematics and many more.</p>
@@ -433,52 +403,6 @@ export default class Nav extends Component{
 														</div>
 													</div>
 												</div>
-											</div>
-
-											<div className="tab-pane" id="tab5">
-												<h3 className="title" style={{"margin": "10px 0 20px"}}>BBA11 (Bachelor of Business Administration)</h3>
-												<p>The broad objective of Bachelor of  Business Administration course is :-</p>
-												<ul className="custom-list-style tik pl2">
-													<li>To develop ethical managers with inter-disciplinary knowledge</li>
-													<li>To develop entrepreneurs</li>
-													<li>To prepare students to take the responsibility of full line of finance, marketing and human resource To develop ethical managers with inter-disciplinary knowledge functions of a company.</li>
-													<li>To develop IT enabled global middle level managers.</li>
-													<li>To develop business analyst for companies, capital markets &amp; commodity markets.</li>
-												</ul>
-												<p><strong>Eligibility: </strong> 10+2/Two years pre-university course of Karnataka state or its equivalent.</p>
-												<p><strong>Duration: </strong> 3 years (6 semesters)</p>
-												<p><strong>Scheme: </strong> Choice based credit system</p>
-												<p><strong>Medium of instruction: </strong> English</p>
-												<p><strong>Course matrix : </strong> As prescribed by Bangalore University</p>
-												<p><strong>Elective group: </strong>
-												</p><ul style={{"list-style-type": "decimal"}}>
-												<li>Finance</li>
-												<li>Marketing</li>
-												<li>Human Resource</li>
-												</ul><p></p>
-											</div>
-
-											<div className="tab-pane" id="tab6">
-												<h3 className="title" style={{"margin": "10px 0 20px"}}>BBA22 (Bachelor of Business Administration)</h3>
-												<p>The broad objective of Bachelor of  Business Administration course is :-</p>
-												<ul className="custom-list-style tik pl2">
-													<li>To develop ethical managers with inter-disciplinary knowledge</li>
-													<li>To develop entrepreneurs</li>
-													<li>To prepare students to take the responsibility of full line of finance, marketing and human resource To develop ethical managers with inter-disciplinary knowledge functions of a company.</li>
-													<li>To develop IT enabled global middle level managers.</li>
-													<li>To develop business analyst for companies, capital markets &amp; commodity markets.</li>
-												</ul>
-												<p><strong>Eligibility: </strong> 10+2/Two years pre-university course of Karnataka state or its equivalent.</p>
-												<p><strong>Duration: </strong> 3 years (6 semesters)</p>
-												<p><strong>Scheme: </strong> Choice based credit system</p>
-												<p><strong>Medium of instruction: </strong> English</p>
-												<p><strong>Course matrix : </strong> As prescribed by Bangalore University</p>
-												<p><strong>Elective group: </strong>
-												</p><ul style={{"list-style-type": "decimal"}}>
-												<li>Finance</li>
-												<li>Marketing</li>
-												<li>Human Resource</li>
-												</ul><p></p>
 											</div>
 											<div className="exTab2" style={{"margin-top":"30px"}}>
 												<ul className="nav nav-tabs">

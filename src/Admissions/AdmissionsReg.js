@@ -17,8 +17,7 @@ export default class ContactUs extends Component{
         var phone= document.getElementById("phone");
          var email= document.getElementById("email");
          var course= document.getElementById("pihone");
-
-         var message= document.getElementById("message");
+          var message= document.getElementById("message");
           axios.post('http://ec2-18-217-223-214.us-east-2.compute.amazonaws.com/SIMS/ContactUs', {
                 "name":name.value,
                 "email":email.value,
@@ -84,7 +83,7 @@ export default class ContactUs extends Component{
                       <div className="form-group course">
                           <label for="phone">Course<sup>*</sup></label>
                          {/*  <input id="pihone" type="tel" className="form-control" placeholder="Enter your Desired Course"/> */}
-                          <select className="form-control" placeholder="Enter your Desired Course">
+                          <select id="pihone" className="form-control" placeholder="Enter your Desired Course">
                             <option value="">Select your Desired Course</option>
                             <option value="BCom">B.Com</option>
                             <option value="BBA">BBA</option>
