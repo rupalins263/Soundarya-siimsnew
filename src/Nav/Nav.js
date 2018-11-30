@@ -36,9 +36,9 @@ export default class Nav extends Component{
 							<a href="/#/Placements">&nbsp; PLACEMENTS </a>
 						</div>
 					</div>
-					<div className="col-md-12 mt10">
+					{/* <div className="col-md-12 mt10">
 						<a href="/#/Admissions" className="admission-btn btn btn-primary"> ADMISSIONS OPEN &gt;</a>
-					</div>
+					</div> */ }
                 </div>
             </div>
         </header>
