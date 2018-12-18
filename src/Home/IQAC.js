@@ -124,13 +124,23 @@ export default class Home extends Component{
 									<li>Distribution of information on various quality Bench marks of higher education.</li>
 									<li>Organization of inter and intra institutional workshops, seminars on quality related themes and promotion of quality circles.</li>
 								</ul>
-							<h3 style={{"margin-bottom":"20px"}}><strong>IQAC REPORT: </strong></h3>
+							{/* <h3 style={{"margin-bottom":"20px"}}><strong>IQAC REPORT: </strong></h3>
 							<p>The foremost   task of the IQAC is to expand a system for conscious, reliable and systematic improvement in the presentation of the institution. The Internal Quality Assurance Cell (IQAC) has a significant contribution in the functioning of the Institution. </p>
 							<p><b>Reports</b></p>
 							<p>AQAR -2015</p>
 							<p>NAAC/AQAR ACK/ SEPT/ 2015/ KACOGIN18476</p>
 							<p>AQAR- 2016</p>
-							<p>NAAC/AQAR ACK/JULY/ 2016/ KACOGIN18476</p>
+							<p>NAAC/AQAR ACK/JULY/ 2016/ KACOGIN18476</p> */}
+
+							<h3 style={{"margin-bottom":"20px"}}><strong>IQAC REPORT: </strong></h3>
+							<p>The foremost   task of the IQAC is to expand a system for conscious, reliable and systematic improvement in the presentation of the institution. The Internal Quality Assurance Cell (IQAC) has a significant contribution in the functioning of the Institution. </p>
+							<p><b>Reports</b></p>
+							<p><a style={{"padding":"5px 0",width:"100%",float:"left"}} href="http://zenopsys.net/soundarya_forms/sims/IQAC/SIMS AQAR 2017-2018.pdf"><i className="fa fa-file-pdf-o"></i> SIMS AQAR 2017-18</a></p>
+							<p><a style={{"padding":"5px 0",width:"100%",float:"left"}} href="http://zenopsys.net/soundarya_forms/sims/IQAC/SIMS AQAR 2015-2016.pdf"><i className="fa fa-file-pdf-o"></i> SIMS AQAR 2016-17</a></p>
+							<p><a style={{"padding":"5px 0",width:"100%",float:"left"}} href="http://zenopsys.net/soundarya_forms/sims/IQAC/SIMS AQAR 2015-2016.pdf"><i className="fa fa-file-pdf-o"></i> SIMS AQAR 2015-16</a></p>
+							<p></p>
+
+
 						</article>
                         <aside className="page-sidebar  col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1">                    
                             <section className="widget has-divider">

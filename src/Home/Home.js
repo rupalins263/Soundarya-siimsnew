@@ -58,7 +58,7 @@ export default class Home extends Component{
                     return(
                  			 <div className="col-md-3 col-xs-12 col-sm-6">
 								<div className="col-md-12 col-xs-12 col-sm-12 events all-events">
-									<h3 className="heading" style={{textAlign:"left"}}>Events</h3>
+									<h3 className="heading" style={{textAlign:"left"}}>Upcoming Events</h3>
 									<div className="section-content" >
 												<div className="event-item">
 													<div className="col-md-3 col-sm-3">
@@ -70,7 +70,7 @@ export default class Home extends Component{
 													</div>
 													<div  className="col-md-9 col-sm-9">
 													<div className="details">
-														<h2 className="title" style={{"font-size": "12px"}}><a href={href}>{item.eventname}</a></h2>
+														<h2 className="title" style={{"font-size": "12px"}}><a target="_blank" href={item.event_url}>{item.eventname}</a></h2>
 														<p className="location"><i className="fa fa-map-marker"></i>Soundarya Institute of Management and Science</p>                            
 													</div>
 													</div>
@@ -196,8 +196,11 @@ export default class Home extends Component{
                             <section className="coll_inner" >
                                 <marquee direction="scroll" srollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
                                     
-                                    <a href="/#/AdmissionsReg" style={{"text-decoration":"none","color":"red","font-weight":"bold"}}>
+                                    {/*<a target="_blank" href="/#/AdmissionsReg" style={{"text-decoration":"none","color":"red","font-weight":"bold"}}>
                                         Admissions Registration Form
+                                    </a>&nbsp;||&nbsp; */} 
+                                     <a target="_blank" href="http://zenopsys.net/soundarya_forms/sims/Prints.pdf" style={{"text-decoration":"none","color":"red","font-weight":"bold"}}>
+                                        Upcoming Event : NSS CAMP - 16 Dec 2018
                                     </a>
                                 </marquee></section>
                         </td>

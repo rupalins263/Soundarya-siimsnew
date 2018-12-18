@@ -10,6 +10,8 @@ import Placements from './Home/Placements';
 import Downloads from './Home/Downloads';
 import About from './About/About';
 import Faculty from './About/Faculty';
+import FacultyNew from './About/FacultyNew';
+import NewFac from './About/NewFac';
 import Milestones from './About/Milestones';
 import UGCoarse from './Coarse/UgCoarse';
 import PGCoarse from './Coarse/PgCoarse';
@@ -49,6 +51,8 @@ class App extends Component {
             <Route exact path="/About" component={About}/>
             <Route exact path="/Management" component={Management}/>
             <Route exact path="/Faculty" component={Faculty}/>
+            <Route exact path="/FacultyNew" component={FacultyNew}/>
+            <Route exact path="/NewFac" component={NewFac}/>
             <Route exact path="/Milestones" component={Milestones}/>
              <Route exact path="/UGCoarse" component={UGCoarse} />Research
              <Route exact path="/PGCoarse" component={PGCoarse} />

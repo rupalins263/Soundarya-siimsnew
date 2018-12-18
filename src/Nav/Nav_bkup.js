@@ -22,29 +22,20 @@ export default class Nav extends Component{
                 </div>      
             </div>
             <div className="header-main container">
-                <div className="col-md-2 col-sm-2" style={{"margin-top":"1%"}}>
-                    <a href="/" style={{"text-decoration": "none"}}>
-                        <img id="logo" src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1506674025/logo_qucn59.jpg" alt="Logo" style={{"width":"85%"}}/>
-                    </a>
-                </div>    
-                <div className="col-md-4 col-sm-4">
-                    <a href="/" style={{"text-decoration": "none"}}>
-                        <h1 style={{"display":"inline-block","margin-top":"10%","font-size":"30px","font-family":"'LexiaLight',Georgia,sans-serif"}}>Soundarya Institute of <br/> Management &amp; Science</h1>
-                    </a>
-                </div>      
                 <div className="logo col-md-6 col-sm-6">
-					<div className="col-md-8 mt20">
+                    <a href="/" style={{"text-decoration": "none"}}>
+                        <img id="logo" src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1506674025/logo_qucn59.jpg" alt="Logo" style={{"width":"22%"}}/>
+                        <h1 style={{"display":"inline-block","margin-top":"5%","font-size":"30px","font-family":"'LexiaLight',Georgia,sans-serif"}}>Soundarya Institute of <br/> Management &amp; Science</h1>
+                    </a>
+                </div>         
+                <div className="col-md-4 col-sm-4 col-sm-offset-2">
+					<div className="col-md-12 mt20">
 						<div className="holder pull-right top-links">                            
 							<a href="/#/Faculty">CURRENT FACULTY &nbsp; |</a>
 							<a href="/#/Carrer">&nbsp; CAREERS &nbsp; |</a>
 							<a href="/#/Placements">&nbsp; PLACEMENTS </a>
 						</div>
 					</div>
-                    <div className="col-md-4 mt20">
-                        <a href="/" style={{"text-decoration": "none"}}>
-                            <img id="logo" src="http://zenopsys.net/soundarya_forms/sims/logo.jpg" alt="Logo" style={{"width":"80%"}}/>
-                        </a>
-                    </div> 
 					{/* <div className="col-md-12 mt10">
 						<a href="/#/Admissions" className="admission-btn btn btn-primary"> ADMISSIONS OPEN &gt;</a>
 					</div> */ }
