@@ -34,6 +34,26 @@ export default class Downloads extends Component{
                                         <td>College Application </td>
                                         <td><a href="http://zenopsys.net/soundarya_forms/sims/downloads/SIMS-application-form.pdf"><i className="fa fa-file-pdf-o"></i> Download PDF</a></td>
                                     </tr>
+
+                                    <tr>
+                                        <td>BCA NewsLetter </td>
+                                        <td><a href="http://zenopsys.net/soundarya_forms/sims/downloads/BCA.pdf"><i className="fa fa-file-pdf-o"></i> Download PDF</a></td>
+                                    </tr>
+
+                                     <tr>
+                                        <td>Kannada Department Report Of 2019 </td>
+                                        <td><a href="http://zenopsys.net/soundarya_forms/sims/downloads/Kannada dept report.pdf"><i className="fa fa-file-pdf-o"></i> Download PDF</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>One Day National Conference on Accreditation Reflections and sustenance of Quality in Indian Higher Education </td>
+                                        <td><a href="http://zenopsys.net/soundarya_forms/sims/downloads/SIMS CONFERENCE BROUCHER.pdf"><i className="fa fa-file-pdf-o"></i>SIMS CONFERENCE BROUCHER</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Registration Form</td>
+                                        <td><a href="http://zenopsys.net/soundarya_forms/sims/downloads/REGISTRATION FORM.pdf"><i className="fa fa-file-pdf-o"></i>Download Registration Form</a></td>
+                                    </tr>
                                     
                                     <tr>
                                         <td>Question Papers </td>

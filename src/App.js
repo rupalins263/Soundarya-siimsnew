@@ -9,8 +9,10 @@ import IQAC from './Home/IQAC';
 import Placements from './Home/Placements';
 import Downloads from './Home/Downloads';
 import About from './About/About';
+import VisionMission from './About/VisionMission';
 import Faculty from './About/Faculty';
 import FacultyNew from './About/FacultyNew';
+import TestGal from './About/TestGal';
 import NewFac from './About/NewFac';
 import Milestones from './About/Milestones';
 import UGCoarse from './Coarse/UgCoarse';
@@ -21,6 +23,7 @@ import ValueAdded from './Coarse/ValueAdded';
 import MangementStudy from './Department/Management';
 import Commerce from './Department/Commerce';
 import BCA from './Department/Bca';
+import BSC from './Department/Bsc';
 import Physical from './Department/Physical';
 import Admissions from './Admissions/Admissions';
 import AdmissionsReg from './Admissions/AdmissionsReg';
@@ -49,9 +52,11 @@ class App extends Component {
         <Nav/>
             <Switch>
             <Route exact path="/About" component={About}/>
+            <Route exact path="/VisionMission" component={VisionMission} />
             <Route exact path="/Management" component={Management}/>
             <Route exact path="/Faculty" component={Faculty}/>
             <Route exact path="/FacultyNew" component={FacultyNew}/>
+            <Route exact path="/TestGal" component={TestGal}/>
             <Route exact path="/NewFac" component={NewFac}/>
             <Route exact path="/Milestones" component={Milestones}/>
              <Route exact path="/UGCoarse" component={UGCoarse} />Research
@@ -61,6 +66,7 @@ class App extends Component {
              <Route exact path="/MangementStudy" component={MangementStudy} />
               <Route exact path="/Commerce" component={Commerce} />
                <Route exact path="/BCA" component={BCA} />
+                <Route exact path="/BSC" component={BSC} />
                     <Route exact path="/Physical" component={Physical} />
                       <Route exact path="/Admissions" component={Admissions} />
                       <Route exact path="/AdmissionsReg" component={AdmissionsReg} />

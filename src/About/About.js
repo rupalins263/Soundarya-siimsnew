@@ -6,10 +6,10 @@ export default class About extends Component{
     render(){
 
         return(
-                    <div className="content container" style={{marginTop:"30px"}}>
+        <div className="content container" style={{marginTop:"30px"}}>
             <div className="page-wrapper">
                 <header className="page-heading clearfix">
-                    <h1 className="heading-title pull-left">About Institute</h1>
+                    <h1 className="heading-title pull-left">About Institution</h1>
                     <div className="breadcrumbs pull-right">
                         <ul className="breadcrumbs-list">
                             <li className="breadcrumbs-label">You are here:</li>
@@ -20,51 +20,74 @@ export default class About extends Component{
                 </header> 
                 <div className="page-content">
                     <div className="row page-row">
-                        <article className="welcome col-md-8 col-sm-7">                         
-                          
-                            <h3 className="title" style={{"margin-top":"30px"}}>Our Inspiration</h3>
-                        <blockquote className="custom-quote">
-                                <p><img src="http://zenopsys.net/soundarya_forms/sims_images/Aboutus/about_SIMS_Insp.png"/></p>
-                            </blockquote>
-                            <h3 className="title" style={{"margin-top":"30px"}} id="vision">Vision</h3>
-                        <blockquote className="custom-quote">
-                                <p><i className="fa fa-quote-left"></i>To ensure quality higher education and to enable stakeholders to face the contemporary challenges of the world with courage, confidence &amp; commitment.</p>
-                            </blockquote>
+                        <div className="col-md-6 col-sm-6">
                             
-                        <h3 className="title" style={{"margin-top":"30px"}} id="mission">Mission</h3>
-                        <blockquote className="custom-quote">
-                                <p><i className="fa fa-quote-left"></i>Strive to create knowledge, to open the minds of the students to take the advantage of this educational opportunity</p>
-                                <ul className="custom-list-style">
-                                <li><i className="fa fa-hand-o-right"></i> To respect ideas and free expressions of the students.</li>                       
-                            </ul>
-                            <p>To identify and remove restraints on student’s full participation, so that students can discuss individual capabilities</p>                    
-                            </blockquote>
+                                <p><img src="http://zenopsys.net/soundarya_forms/sims/simsabout.PNG" style={{"height":"300px","width":"530px"}}/></p>
+                       
+                        </div>
+
+                        <div className="col-md-6 col-sm-6">
+                             <div style={{"background":"#ADD8E6","border-radius":"20px","margin-top":"15px","padding":"15px","height":"280px"}}>
+                                <h1 style={{"color":"white"}}></h1>
+                                <p>Soundarya Institute of Management and Science is one of the leading educational institutions in the field of Management
+                                    and Science, in Bangalore. It was established in the year 2007 with students of 92; within a span of one and half decade 
+                                    strength of students has reached more than 1300 hundred. It reflects institution a sense of commitment in the field of higher
+                                    education and it also unfolds an academic learning environment in the campus. The institution has spread over in 9.2 acre with 
+                                    the state of art infrastructure, good academic ambience and aesthetic sense.</p>
+                                {/*<h1 style={{"color":"white"}}>Mission</h1>
+                                <p>Strive to create knowledge, to open the minds of the students to take the best advantage of this educational opportunity.
+                                </p>
+                                <ul>
+                                <li>To respect ideas and free expression of the students. </li>
+                                <li>To identify and remove restraints on student's full participation, so that students can discuss individual capabilities. </li>
+                               
+                                </ul> */}
+                            </div>
                             
-                            <h3 className="title" style={{"margin-top":"30px"}}>Motto</h3>
-                        <blockquote className="custom-quote">
-                                <p><i className="fa fa-quote-left"></i>To develop, to maintain and transmit true knowledge ethics and traditional values that highlights the essence of the compositions of Sri Shankaracharya especially the most sacred “Soundarya Lahari”.</p>
-                            </blockquote>
-                            
-                        
-                        
-                        </article>
-                        <aside className="page-sidebar  col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1">                    
-                            <section className="widget has-divider">
-                                <h3 className="title">Related Links</h3>
-                                <ul className="job-list custom-list-style">
-                                        <li><i className="fa fa-caret-right"></i><a href="/#/About">About Us</a></li>
-                                        <li><i className="fa fa-caret-right"></i><a href="/#/Management">Management </a></li>
-                                        <li><i className="fa fa-caret-right"></i><a href="/#/About">Mission</a></li>
-                                        <li><i className="fa fa-caret-right"></i><a href="/#/About">Vision</a></li>
-                                </ul>
-                            </section>
-                            <section className="widget">
-            <h3 className="title">Contact</h3>
-            <p><b>SIMS</b><br/>Soundarya Nagara, Sidedahalli,<br/> Nagasandra Post, Bangalore-560073</p>
-            <p className="tel"><i className="fa fa-phone"></i>Tel: <a href="tel:080 28390260">080-28390260 </a></p>
-            <p className="email"><i className="fa fa-envelope"></i>Email: <a href="mailto:degreesoundarya@gmail.com">degreesoundarya@gmail.com</a></p>
-        </section>
-                        </aside>
+                        </div>                     
+                    </div>
+                    <div className="row page-row">
+                        <div className="col-md-12 col-sm-12">
+                            <div style={{"background":"#ADD8E6","border-radius":"20px","padding":"15px"}}>
+                                <h1></h1>
+                                Institution offers under graduate courses in B.Com, BCA, BBA, BBA (Aviation
+                                Management), B.Sc, BA (Journalism), Post Graduate in M Com, M Com (Financial
+                                Analysis) and Post Graduate Diploma in e-commerce. In addition to it provides more 12
+                                value added Certificate Courses like, Remedial Course in English, General Proficiency in
+                                English, Finance and Banking Service Crash Courses like Soft Skills, Quantitative Aptitude
+                                etc. in order to enrich and enhance employability skills among students. Institution is also
+                                recognized under UGC 2F, 12B and accredited by NAAC.<br/>
+
+                                Indeed, academic initiation and approach of the institution has immensely reflected
+                                both in Curricular, Co-Curricular and Extra-Curricular activities in the overall performance of
+                                students. The Achievements of students are the testimony of the institutional contribution
+                                commitment for exceptional performance quality assurance in every endeavour. It has
+                                considerable contributed in Research, Cultural activities Sports and Institutional Social
+                                Responsibilities. The holistic approach and initiation has been guiding both faculty and
+                                students to grow from strength to strength in Curricular and Extra–Curricular activities. This
+                                approach has shown in the Academic result of students, more than 90% of students stand in
+                                First Class with Distinction.<br/>
+
+                                Institution strongly supports and encourages faculty members to explore their
+                                intellectual insights in academic as a result faculty members have published more than 60
+                                research papers in National and International peer reviewed journals and working as Board of
+                                Examiners in various autonomous and to be Deemed Universities. As a matter of fact
+                                institution is not only striving hard in enhancing innate skills of students in academics but
+                                also is making sincere efforts in harnessing potentialities of students skills and abilities in
+                                sports and cultural activities. Since inception of the institution more than 600 hundred
+                                students played at various levels of Sports in International, National and represented
+                                Bangalore Universities in various competitions. <br/>
+
+                                Institution strongly believes in sharing ideas, building platforms for intellectuals and
+                                respecting cross culture in education. Keeping these views in mind it would like to explore its
+                                core values of education policy through bridging students exchange programs.
+
+                                
+
+                            </div>
+                           
+
+                        </div>
                     </div>
                 </div>
             </div>

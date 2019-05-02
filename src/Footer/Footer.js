@@ -14,10 +14,10 @@ export default class Nav extends Component{
                     <div className="footer-col-inner">
                         <h3>More Links</h3>
                         <ul >
-                            <li><a href="/#/Gallery"><i className="fa fa-caret-right"></i>Gallery</a></li>
-                            <li><a href="/#/Privacy"><i className="fa fa-caret-right"></i>Privacy Policy</a></li>
-                            <li><a href="/#/UGCoarse"><i className="fa fa-caret-right"></i>Courses Offered</a></li>
-                            <li><a href="/#/Placements"><i className="fa fa-caret-right"></i>Placements</a></li>
+                            <li><a href="/sims/#/Gallery"><i className="fa fa-caret-right"></i>Gallery</a></li>
+                            {/* <li><a href="/#/Privacy"><i className="fa fa-caret-right"></i>Privacy Policy</a></li>  */} 
+                            <li><a href="/sims/#/UGCoarse"><i className="fa fa-caret-right"></i>Courses Offered</a></li>
+                            <li><a href="/sims/#/Placements"><i className="fa fa-caret-right"></i>Placements</a></li>
                             
                         </ul>
                     </div>
@@ -27,10 +27,10 @@ export default class Nav extends Component{
                     <div className="footer-col-inner">
                         <h3>&nbsp;</h3>
                         <ul>
-                            <li><a href="/#/News"><i className="fa fa-caret-right"></i>News &amp; Events</a></li>
-                            <li><a href="/#/Faculty"><i className="fa fa-caret-right"></i>Faculty</a></li>
-                            <li><a href="/#/Management"><i className="fa fa-caret-right"></i>Management</a></li>
-                            <li><a href="/#/Contact"><i className="fa fa-caret-right"></i>Contact Us</a></li>
+                           {/* <li><a href="/#/News"><i className="fa fa-caret-right"></i>News &amp; Events</a></li>  */} 
+                            <li><a href="/sims/#/Faculty"><i className="fa fa-caret-right"></i>Faculty</a></li>
+                            <li><a href="/sims/#/Management"><i className="fa fa-caret-right"></i>Management</a></li>
+                            <li><a href="/sims/#/Contact"><i className="fa fa-caret-right"></i>Contact Us</a></li>
                             
                         </ul>
                     </div>
@@ -44,7 +44,7 @@ export default class Nav extends Component{
                                     <span className="street-address">SIMS<br/>
 									<i style={{"visibility": "hidden"}} className="fa fa-map-marker pull-left"></i>  Soundarya Nagara, Sidedahalli,<br/>
 									<i className="fa fa-map-marker pull-left" style={{"visibility": "hidden"}}></i> Nagasandra Post, Bangalore-560073<br/>
-									<i className="fa fa-phone"></i>87227600601 / 080-28390260<br/>
+									<i className="fa fa-phone"></i>8722760601 / 080-28390260<br/>
 									<i className="fa fa-envelope"></i><a href="mailto:degreesoundarya@gmail.com">degreesoundarya@gmail.com</a>
 									</span>
                                     

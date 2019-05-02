@@ -37,266 +37,193 @@ export default class Faculty extends Component{
 										
                                 <tr role="row" class="odd">
 											<td tabindex="0" class="sorting_1">1</td>
-											<td>Dr.Suresh C Hegadi</td>
+											<td>Dr.SURESH C HEGADI</td>
 											<td>Head of the Institution</td>
 											<td>M.Com, Ph.D</td>
-											<td>Principal</td>
+											<td>PRINCIPAL</td>
 										</tr><tr role="row" class="even">
 											<td tabindex="0" class="sorting_1">2</td>
-											<td>Dr. Harish P M</td>
-											<td>Sports </td>
-											<td>M.A.,M.P.Ed.,Ph.D.,PGDSY</td>
+											<td>Dr. P. M. Harish </td>
+											<td>Physical Education </td>
+											<td>M.A,PGDY, PGDSM, M.PED, Ph.D. </td>
 											<td>Physical Education Director</td>
 										</tr><tr role="row" class="odd">
 											<td tabindex="0" class="sorting_1">3</td>
-											<td>Mr. Ranganath T L</td>
-											<td>Library </td>
-											<td>M.Sc in Lib. Science</td>
+											<td>Mr. Ranganath. T. L</td>
+											<td>Librarian </td>
+											<td>MA.,M.Sc(Lib)., M.Phil.</td>
 											<td>Librarian</td>
 										</tr><tr role="row" class="even">
 											<td tabindex="0" class="sorting_1">4</td>
-											<td>Mrs.Vijayalakshmi R.Shirashad</td>
-											<td>Computer-Science</td>
-											<td>MCA</td>
-											<td> Asst.Professor</td>
+											<td>Mr. Kishora Kumar P</td>
+											<td>Dept. Of Kannada</td>
+											<td>M.A., M.Phil.</td>
+											<td> HOD (Humanities)</td>
 										</tr><tr role="row" class="odd">
 											<td tabindex="0" class="sorting_1">5</td>
-											<td>Mr.Naveen.A</td>
-											<td>Commerce</td>
-											<td>M.Com.</td>
-											<td>HOD & Asst.Professor</td>											
-										</tr><tr role="row" class="even">
-											<td tabindex="0" class="sorting_1">6</td>
-											<td>Mrs.Haritha M</td>
-											<td>Commerce</td>
-											<td>M.B.A., M.Com.,(Ph.D)</td>
-											<td>Asst.Professor</td>
-										</tr><tr role="row" class="odd">
-											<td tabindex="0" class="sorting_1">7</td>
-											<td>Mrs.Prithvi Heggade M.</td>
-											<td>Commerce</td>
-											<td>M.Com., M.Phil.</td>
-											<td>Asst.Professor</td>
-										</tr><tr role="row" class="odd">
+											<td>Mr.Pradeep K Shetty</td>
+											<td>Dept. Of Kannada</td>
+											<td>MA</td>
+											<td>Asst.Prof.</td>
+										</tr>><tr role="row" class="even">
 											<td tabindex="0" class="sorting_1">8</td>
-											<td>Mr.Ramesh D</td>
-											<td>Commerce</td>
-											<td> M.Sc., M.Ed., M.B.A, M.Phil. (Ph.D)</td>
-											<td>Asst.Professor</td>
+											<td>Mrs.Gayathri Bai R</td>
+											<td>Dept. Of Hindi</td>
+											<td>M.A., B.Ed.</td>
+											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="odd">
 											<td tabindex="0" class="sorting_1">9</td>
-											<td>Mrs.Suguna K</td>
+											<td>Mr.Naveen.A</td>
 											<td>Commerce</td>
-											<td>M.B.A, M.Com (B.Ed)</td>
-											<td>Asst.Professor</td>
+											<td>M.Com</td>
+											<td>HOD (Commerce )</td>
 										</tr><tr role="row" class="even">
 											<td tabindex="0" class="sorting_1">10</td>
-											<td>Mrs.Madhumita</td>
-											<td>Computer-Science</td>
-											<td>M.C.A.</td>
+											<td>Mrs.Prithvi Heggade M.P</td>
+											<td>Commerce</td>
+											<td>M.Com., M.Phil.</td>
 											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="odd">
 											<td class="sorting_1" tabindex="0">11</td>
-											<td>Mrs.Nischitha H</td>
-											<td>Management</td>
+											<td>Mrs.Sowmyalatha</td>
+											<td>Commerce</td>
 											<td>M.Com</td>
 											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="even">
 											<td class="sorting_1" tabindex="0">12</td>
-											<td>Mrs.Sowmyalatha</td>
+											<td>Mrs.Suguna K</td>
 											<td>Commerce</td>
-											<td> M.Com(B.Ed)</td>
-											<td>Asst.Prof.</td>
-										</tr><tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">13</td>
-											<td>Mrs.Gayathri Devi</td>
-											<td>Hindi</td>
-											<td>M.A., B.Ed.</td>
+											<td> MBA(M.Com)</td>
 											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="even">
 											<td class="sorting_1" tabindex="0">14</td>
-											<td>Mrs.Sheela D.V</td>
-											<td>Computer-Science</td>
-											<td>M.C.A.</td>
-											<td>Asst.Prof.</td>
-										</tr><tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">15</td>
 											<td>Mrs.Sunitha N</td>
 											<td>Commerce</td>
 											<td>M.Com</td>
 											<td>Asst.Prof.</td>
+										</tr><tr role="row" class="odd">
+											<td class="sorting_1" tabindex="0">15</td>
+											<td>Mr.Anilkumar</td>
+											<td>Commerce</td>
+											<td>M.Com</td>
+											<td>Asst.Prof.</td>
+
 										</tr>
-										<tr role="row" class="odd">
+										<tr role="row" class="even">
+											<td class="sorting_1" tabindex="0">26</td>
+											<td>Mr.Lokesh G Angadi</td>
+											<td>Dept. Of Commerce</td>
+											<td>M.Com, MBA,PGDHRM</td>
+											<td>Asst.Prof.</td>
+										</tr>
+										<tr role="row" class="even">
 											<td class="sorting_1" tabindex="0">16</td>
-											<td>Mrs.Nethravathi A</td>
+											<td>Mr.Gurudath M.R</td>
+											<td>Commerce</td>
+											<td>M.Com</td>
+											<td>Asst.Prof.</td>
+										</tr><tr role="row" class="odd">
+											<td class="sorting_1" tabindex="0">17</td>
+											<td>Mr.Ravi B A</td>
 											<td>Management</td>
-											<td>M.B.A</td>
+											<td>B.Com., MBA</td>
 											<td>Asst.Prof.</td>
 										</tr>
 										<tr role="row" class="odd">
 											<td class="sorting_1" tabindex="0">17</td>
-											<td>Mr.Anilkumar K Y</td>
-											<td>Commerce</td>
-											<td>M.Com</td>
-											<td>Asst.Prof.</td>
-										</tr>
-										<tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">18</td>
-											<td>Mrs.Divyashree D</td>
-											<td>Computer-Science</td>
-											<td>M.C.A.</td>
-											<td>Asst.Prof.</td>
-										</tr>
-										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">19</td>
 											<td>Mr.Darshan C</td>
 											<td>Management</td>
-											<td>MBA, BE</td>
+											<td> BE,MBA</td>
 											<td>Asst.Prof.</td>
 										</tr>
 										<tr role="row" class="even">
+											<td class="sorting_1" tabindex="0">18</td>
+											<td>Mr.Ramesh D</td>
+											<td>Management</td>
+											<td>M.Sc., MBA, M.Ed., (Ph.D)</td>
+											<td>Asst.Prof.</td>
+										</tr><tr role="row" class="odd">
+											<td class="sorting_1" tabindex="0">19</td>
+											<td>Mrs.Haritha M</td>
+											<td>Management</td>
+											<td>MBA., M.Com., B.Ed, (Ph.D)</td>
+											<td>Asst.Prof.</td>
+										</tr><tr role="row" class="even">
 											<td class="sorting_1" tabindex="0">20</td>
-											<td>Mr.Shivakumar U Ganachari</td>
-											<td>English</td>
-											<td>MA, KSET</td>
+											<td>Miss.Nischitha</td>
+											<td>Management</td>
+											<td>M.Com.,KSET</td>
 											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="odd">
 											<td class="sorting_1" tabindex="0">21</td>
-											<td>Mr.N.B. Shighihalli</td>
-											<td>Science</td>
-											<td>M.Sc.,M.Phil.</td>
-											<td>Asst.Prof.</td>
-										</tr>
-										<tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">22</td>
-											<td>Mr.Tejeswi C.M</td>
-											<td>Science</td>
-											<td> M.Sc.</td>
-											<td>Asst.Prof.</td>
-										</tr>
-										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">23</td>
-											<td>Ms.Sushma A.V</td>
-											<td>Science</td>
-											<td>M.Sc.</td>
-											<td>Asst.Prof.</td>
-										</tr><tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">24</td>
-											<td>Mr.Lokesh G Angadi</td>
-											<td>Commerce</td>
-											<td>M.Com, MBA</td>
-											<td>Asst.Prof.</td>
-										</tr><tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">25</td>
-											<td>Mr.Puttanna H</td>
-											<td>English</td>
-											<td>M.A (Eng.) B.Ed.</td>
-											<td>Asst.Prof.</td>
-										</tr><tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">26</td>
-											<td>Mrs.Thanuja V</td>
-											<td>Commerce</td>
-											<td>M.Com</td>
-											<td>Asst.Prof.</td>
-										</tr><tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">27</td>
-											<td>Mr.Manjunath B</td>
-											<td>Computer-Science</td>
-											<td>B.E., M.Sc,M.Phil.</td>
-											<td>HOD & Asst.Professor</td>
-										</tr><tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">28</td>
-											<td>Mr.Somashekarappa</td>
-											<td>Kannada</td>
-											<td>M.A(Kann.), (B.Ed)</td>
-											<td>Asst.Prof.</td>
-										</tr><tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">29</td>
-											<td>Mr.Rajashekara R</td>
-											<td>Commerce</td>
-											<td>M.Com</td>
-											<td>Asst.Prof.</td>
-										</tr><tr role="row" class="odd">
-											<td class="sorting_1" tabindex="0">30</td>
-											<td>Dr.Srinivas C</td>
+											<td>Mrs.Nethravathi A</td>
 											<td>Management</td>
-											<td>MBA, M.Com,KSET, Ph.D</td>
-											<td>HOD & Asst.Professor</td>
+											<td>B.Com, MBA</td>
+											<td>Asst.Prof.</td>
 										</tr><tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">31</td>
-											<td>Mr.Maruthi M.H</td>
-											<td>Commerce</td>
-											<td>MBA, (M.Com)</td>
+											<td class="sorting_1" tabindex="0">22</td>
+											<td>Mr. Praveen Kumar B</td>
+											<td>Dept. Of BCA</td>
+											<td>M.Sc.(IT),M.Tech.(IT)</td>
+											<td>HOD (CS Dept.)</td>
+										</tr><tr role="row" class="odd">
+											<td class="sorting_1" tabindex="0">23</td>
+											<td>Mrs.Vijayalaxmi R.S.</td>
+											<td>Dept. Of BCA</td>
+											<td>ADCA,MCA</td>
+											<td>Asst.Prof.</td>
+										</tr><tr role="row" class="even">
+											<td class="sorting_1" tabindex="0">24</td>
+											<td>Mrs.Madhumita</td>
+											<td>Dept. Of BCA</td>
+											<td>M.C.A.</td>
+											<td>Asst.Prof.</td>
+										</tr><tr role="row" class="odd">
+											<td class="sorting_1" tabindex="0">25</td>
+											<td>Mrs.Sheela D.V</td>
+											<td>Dept. Of BCA</td>
+											<td>M.Sc., (MCA)</td>
+											<td>Asst.Prof.</td>
+										</tr><tr role="row" class="even">
+											<td class="sorting_1" tabindex="0">26</td>
+											<td>Mrs.Divyashree D</td>
+											<td>Dept. Of BCA</td>
+											<td>MCA</td>
 											<td>Asst.Prof.</td>
 										</tr>
 										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">32</td>
-											<td>Mrs.Ramya H.S</td>
-											<td>Commerce</td>
-											<td>M.A(Pol.Sc), M.Phil.</td>
+											<td class="sorting_1" tabindex="0">26</td>
+											<td>Mr.Shivakumar U Ganachari</td>
+											<td>Dept. Of English</td>
+											<td>MA,M.Phil</td>
 											<td>Asst.Prof.</td>
 										</tr>
 										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">33</td>
-											<td>Mrs.Prathima M.C</td>
-											<td>Kannada</td>
-											<td>M.A.(Kann), M.Phil.,B.Ed</td>
+											<td class="sorting_1" tabindex="0">26</td>
+											<td>Mr.N.B.Shigihalli</td>
+											<td>Dept. Of Physics</td>
+											<td>Msc,M.Phil</td>
 											<td>Professor </td>
 										</tr>
 										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">34</td>
-											<td>Mr.Hanumantharaju G.K</td>
-											<td>English</td>
-											<td>M.A (Eng.)</td>
+											<td class="sorting_1" tabindex="0">26</td>
+											<td>Mr.Tejsawi C M</td>
+											<td>Dept. Of Mathematics</td>
+											<td>Msc</td>
 											<td>Asst.Prof.</td>
 										</tr>
 										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">35</td>
-											<td>Dr.B.Prahlad Reddy</td>
-											<td>Kannada</td>
-											<td>MA M.Phil, Phd, SET</td>
+											<td class="sorting_1" tabindex="0">26</td>
+											<td>Mr.Abdul Khalak</td>
+											<td>Dept. Of English</td>
+											<td>MA(Eng),KSET,PGDAS</td>
 											<td>Asst.Prof.</td>
 										</tr>
 										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">36</td>
-											<td>Mr.Anil K.P</td>
-											<td>Commerce</td>
-											<td>M.Com </td>
-											<td>Asst.Prof.</td>
-										</tr>
-										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">37</td>
-											<td>Mr.Naresh C</td>
-											<td>Management</td>
-											<td>M.Com ,FA </td>
-											<td>Asst.Prof.</td>
-										</tr>
-										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">38</td>
-											<td>Ms. Leelavathi  L.V</td>
-											<td>Management</td>
-											<td>MBA</td>
-											<td>Asst.Prof.</td>
-										</tr>
-										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">39</td>
-											<td>Mr.Girisha</td>
-											<td>Commerce</td>
-											<td>M.Com </td>
-											<td>Asst.Prof.</td>
-										</tr>
-										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">40</td>
-											<td>Mr.Sudharsana Reddy Pujari</td>
-											<td>PG</td>
-											<td>M.Com, MBA, M.Phil, Phd,APSET,UGC NET </td>
-											<td>Asst.Prof.</td>
-										</tr>
-										<tr role="row" class="even">
-											<td class="sorting_1" tabindex="0">41</td>
-											<td>Mr.Umar Ali Khan</td>
-											<td>PG</td>
-											<td>MFA,UGC NET</td>
+											<td class="sorting_1" tabindex="0">26</td>
+											<td>Mrs. Sushma A V</td>
+											<td>Dept. Of Chemistry</td>
+											<td>MSc</td>
 											<td>Asst.Prof.</td>
 										</tr>
 									
@@ -346,13 +273,6 @@ export default class Faculty extends Component{
 												<td>Office</td>
 												<td>(ITI)</td>
 												<td>Office Attender</td>
-											</tr>
-											 <tr>
-												<td>5</td>                                        
-												<td>Mrs.Ramya Seshadri</td>
-												<td>Placements</td>
-												<td>B.Com,BCA, PG- Diploma in HR</td>
-												<td>Manager</td>
 											</tr>
 										</tbody>    
 								</table>            

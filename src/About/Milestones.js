@@ -62,6 +62,8 @@ export default class Faculty extends Component{
                                             <li data-target="#myCarousel" data-slide-to="9"></li>
                                             <li data-target="#myCarousel" data-slide-to="10"></li>
                                             <li data-target="#myCarousel" data-slide-to="11"></li>
+                                            <li data-target="#myCarousel" data-slide-to="12"></li>
+                                            <li data-target="#myCarousel" data-slide-to="13"></li>
                                         </ol>
 
 
@@ -101,6 +103,12 @@ export default class Faculty extends Component{
                                             </div>
                                             <div className="item ">
                                                 <img src="http://zenopsys.net/soundarya_forms/sims_images/Aboutus/mil-slide12_MilestonesSlideShow.jpg" alt=""/>
+                                            </div>
+                                            <div className="item ">
+                                                <img src="http://zenopsys.net/soundarya_forms/sims_images/Aboutus/GOLD MEDAL WEBSITE.jpg" alt=""/>
+                                            </div>
+                                            <div className="item ">
+                                                <img src="http://zenopsys.net/soundarya_forms/sims_images/Aboutus/GOLD MEDAL WOMEN WEBSITE.jpg" alt=""/>
                                             </div>
                                             
                                         </div>

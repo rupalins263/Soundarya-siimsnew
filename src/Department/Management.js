@@ -21,49 +21,126 @@ export default class PgCoarse extends Component{
                 <div className="page-content">
                     <div className="row page-row">
                         <article className="welcome col-md-8 col-sm-7">                         
-                            <img src="http://zenopsys.net/soundarya_forms/sims_images/Departments/management_Management.JPG" alt="management" className="img-responsive"/>
-							<p style={{"margin-top":"30px"}}>Management education is a popular course of study as it gives students various job opportunities and trains them to improve their self-confidence and learn to find out of the box ways to better hone their skills. Students learn to focus, build leadership skills, take decisions, think logically, work in a team and at the same time learn to be competitive through the curriculum as well as various programs designed for them. This prepares them for the business world.</p>
-                            <h3 className="text sub-heading">Vision</h3>
-                            <p>To transform each student into priceless and respectful citizens of the world and to develop him/her as passion towards management, to make strong individuals with strong ethical values, balance in their emotion and spiritual values.</p>
-                            <h3 className="text sub-heading">Mission</h3>
-                            <p>To provide quality management education to all its students and make them to take initiative in solving organizational and social problem and prepare them for productive careers.</p>
-                            <p  style={{"margin-top":"30px"}}>Management is indispensable in all organizations whether a business firm, a government, a hospital, a college, a club, etc. Management is a creative force which helps in the optimum utilization of resources.</p>
-                            <p>Competent mana¬gerial leadership alone can convert the disorganized resources of men, money, materials and machinery into a productive enterprise. In the absence of management, an organization is merely a collection of men, money, materials and machinery.</p>
-                            <p>Management Degree in the world has exciting career opportunities. This degree finds its relevance across the world, across all sectors and all economic systems. The management programme not merely continues to be one’s academic or professional career, but it also improves one’s lifestyle and edifies one’s behavior. It develops overall personality, it strengthens the communication skills, and it sharpens the mind to manage the various challenging business circumstances.</p>
-                            <p>In fact, the management study is, now the world’s best known and most widely recognized education. It has undoubtedly opened limitless opportunities for young aspirants who are in the employment market. Not only financially, it also makes one socially and intellectually sound, as it is an integrating discipline of human values. No matter which institution one can get the Management degree from what matters is the efficiency of an individual as it wholly and solely depends on one’s capability of doing such things which are required by the same programme. As corporate world is intensely competitive day by day, the demand for management education is increasing. The modern management practices molded from the traditional management theories and philosophies has become major focus in the modern business world.</p>
-                            <p>Management education can help students achieve success in their career life along with their self-interests, future hopes, wishes and goals in life. This is the significant feature of management studies as compared with other field of studies. To any responsible persona in any of the organization, management skills would surely help achieve things in a structured manner. Almost all the business groups and organizations appoint management people these days, to take care of their different managerial divisions and departments.</p>
-							<h3 className="text sub-heading">Course Highlights</h3>
-                            <ul className="custom-list-style tik pl2">
-								<li>Experienced and dedicated teaching Faculty.</li>
-								<li>Coaching classes for the slow learners.</li>
-								<li>Special attention to the advanced learners.</li>
-								<li>Continuous mentoring by the Academic Advisors.</li>
-								<li>Academic, sports, cultural- an integrated education.</li>
-								<li>Practical exposure through Industrial Visits/field visits.</li>
-								<li>Personality development workshops.</li>
-								<li>Guest lectures on the specific areas.</li>
-								<li>Opportunity for the students to organize programmes.</li>
-								<li>Career Guidance.</li>
-								<li>Campus Placement drive.</li>
-								<li>Business Management related activities at students’ level on continuous basis.</li>
-								<li>Group Mini Research projects.</li>
-								<li>The effective communication Channel of all interested parties concerned for the development of students.</li>
-							</ul>
-                            <h3 className="text sub-heading">Career Opportunities after BBA</h3>
-                            <ul className="custom-list-style tik pl2">
-								<li>Banking and financial Institutions.</li>
-								<li>Business Houses</li>
-								<li>Educational Institutions.</li>
-								<li>Marketing organizations.</li>
-								<li>Trading Houses.</li>
-								<li>Manufacturing</li>
-								<li>Healthcare.</li>
-								<li>Legal</li>
-								<li>Recreational</li>
-								<li>International Business.</li>
-								<li>Public Sector enterprises</li>
-								<li>Public services (IAS, KAS, IPS, Army, Navy, Air Force Railways etc.,)</li>
-							</ul>
+                           <p>
+                           <table>
+                            <thead>
+                                <tr>
+                                    <td colSpan={2} style={{textAlign:"center",background:"black","color":"white","font-weight":"bold"}}>DEPARTMENT DETAILS</td>                                    
+                                </tr>
+                            </thead>
+                                <tbody>
+                                <tr>
+                                    <td style={{textAlign:"left"}}>Name of the Department</td>
+                                    <td style={{textAlign:"left"}}>Department of Management</td>
+                                </tr>
+                                <tr>
+                                    <td style={{textAlign:"left"}}>Year of Establishment</td>
+                                    <td style={{textAlign:"left"}}>2007-2008</td>
+                                </tr>
+                                <tr>
+                                    <td style={{textAlign:"left"}}>Name of the Programme</td>
+                                    <td style={{textAlign:"left"}}>Bachelor of Business Management</td>
+                                </tr>
+                                <tr>
+                                    <td style={{textAlign:"left"}}>Value added Courses</td>
+                                    <td style={{textAlign:"left"}}>Digital Marketing, Project</td>
+                                </tr>
+                                <tr>
+                                    <td style={{textAlign:"left"}}>Specialization Offered</td>
+                                    <td style={{textAlign:"left"}}>Finance<br/>Human Resource Management<br/>Marketing</td>
+                                </tr>
+                                <tr>
+                                    <td style={{textAlign:"left"}}>Total No. Of faculties</td>
+                                    <td style={{textAlign:"left"}}>06</td>
+                                </tr>
+                                <tr>
+                                    <td style={{textAlign:"left"}}>Students teacher’s Ratio</td>
+                                    <td style={{textAlign:"left"}}>30:1</td>
+                                </tr>
+                                </tbody>                            
+                            </table>
+                           </p>
+
+                           <h3 className="text sub-heading">OBJECTIVES OF THE DEAPARTMENT:</h3>
+                            <ul className="custom-list-style tik check">
+                                <li> COACHING CLASSES FOR THE SLOW LEARNERS (CUSTOMISED LEARNING)</li>
+                                <li> CONTINUOUS MENTORING BY THE ACADEMIC ADVISORS.</li>
+                                <li> ACADEMIC, SPORTS, CULTURAL- AN INTEGRATED EDUCATION.</li>
+                                <li> PRACTICAL EXPOSURE THROUGH INDUSTRIAL VISITS/FIELD VISITS.</li>
+                                <li> GUEST LECTURES ON THE SPECIFIC AREAS.</li>
+                            </ul>
+
+                            <h3 className="text sub-heading">VISION OF THE DEPERMENT</h3>
+                            <ul>
+                                <li> TO HELP STUDENTS IN UNDERSTANDING AND APPLYING THE CONCEPTS OF MANAGEMENT IN THEIR REAL LIFE</li>
+                                <li> TO DEVELOP TRANSFORMTIONAL LEADERS WHO CAN WORK WITH ORGANISATION IN BRINGING CHANGE IN INDIVIDUAL AS WELL AS IN SOCIETY.</li>
+                                <li> TO CULTIVATE THE CULTURE OF ENTERPERSING</li>                               
+                            </ul>
+
+                            <h3 className="text sub-heading">MISSION:</h3>
+                            <ul className="custom-list-style tik check">
+                                <li> Providing a conducive and exhorting environment for all our staff and students.</li>
+                                <li> Creating a Grapple and socially-responsible learner community that involves continuously in innovative and quantifiable research</li>
+                                <li> Providing an unprejudiced learning and unlearning experience for the students.</li>     
+                                <li>Motivate the students to take responsibility for individual, business,societal aspects and National and international aspects and work with 
+                                astute keeping ethics in consideration. </li>                         
+                            </ul>
+
+                            <h3 className="text sub-heading">DEPARTMENTAL ACTIVITIES</h3>
+                            <p>HIGHLIGHTS</p>
+                            <p>
+                            BBA perhaps glad to mark that the department BBA has been making steady and sustained progress. We are indeed proud to note that 
+                            this year, a new branch of BBA,aviation is also started to flock its wings along with BBA department with good number of academic
+                             and other non academic activities like, orientation progress, skill development progress, fresher’s day. Out bound activity, 
+                             expert talk youth fair, field/industrial visit, placement activities, PTM etc., we urge to all tell that, all our alumni of the 
+                             department came forward and participated in their alma-mater growth.
+                            </p>
+                            <p>
+                            We all hope that the staff of the collage will continue to strive and support SIMS inscaling to higher heights in the arena of 
+                            holistic education.
+                            </p>
+                            <p>
+
+                            <ol>
+                                <li>Dr. Suresh C Hegadi, Principal formally inaugrated the progress of I Sem BBA &amp;BBA aviation on 02.07.18 at Amphitheatre
+                                 along with Mr. Ganesh Consultant, MES educational society. </li>
+                                <li>“Effective leadership is putting first things first.: Steven Convey The students of I year BBA had one day orientation 
+                                progress by Deepak Justin (DJ),ted-x speaker and a crew of tost-master on 12.07.18 &amp; 13.07.18 at Ocarina. </li>
+                                <li>A smile is the universal welcome’: Max Eastman It was a cultural feast for fresher’s to bring out their talents and get up
+                                 with their follow seniors. Indeed it was an ice breaking Ceremony held for a week and final day celebration was on 14.07.18 at 
+                                 mphitheatre. </li>
+                                <li>“To most people, the sky is the limit. To those who love aviation, the sky is the home.: Jerry Crawford.An orientation progress 
+                                was held by ‘Aptech learning solutions’, for Aviation students (I Sem) regarding career opportunities in aviation industry. Mr. Susheel
+                                Kumar, crew of Aptech gave a insight on this.</li>
+                                <li>Confidence come from discipline and training, hereby for sowing confidence in our students department arranged one-day outbound 
+                                activity within the campus for all BBA students on 21.07.18 at SIMS.</li>
+                                <li>“According to most studies, people’s number one fear is public speaking. Number two is death for making our students to come out of narcissi on, 
+                                building up faith among themselves. The department organized inter-departmental presentation was conducted for two days on 27.07.18 &amp; 28.07.18.</li>
+                                <li>These are certain things in which mediocrity is not to be endured, such as industrial,market and academic (subject) expert can give justice. Such 
+                                effort was made in bringing people from external and arranged expert talk to our students on various topics to enhance their knowledge and to build up
+                                collaboration with them.</li>
+                                <li>Trade is the person at the other end of the supply chain. The person who made our products, has been paid a fair. To reach students demand
+                                 quality not just in the product people buy, but to improve our students selling skills, customer perception budjeting and managerial skill youth 
+                                 fair was organized on entrepreneurs day on 21.08.18 at ocarina.</li>
+                                <li>The collage aims at providing diverse educational experiences with this intention,department aims at connecting dots to fill up gap b/w 
+                                institution &amp; industry by letting students know the work culture, financial, production and managerial activities. I year BBA (Aviation) 
+                                students were taken to KIAP on 28.08.18.</li>
+                                <li>“The future belongs to those who believe in the beauty of the dreams”.In making students dream of getting placed and proving their competency,
+                                 the placement department organized pre placement training for V Semester BBA students on 26.09.18 in placement department.</li>
+                                <li>Parents being responsible stakeholder of the institution, parents teachers’ meet was organized on 30.09.2018, to exchange ideas, suggestion and
+                                issues which aims at mutual efforts in developing students.</li>
+                                <li>Future can be defined as the art, beliefs, values and practices of a Community to strengthen their personal skills. The department organized
+                                 “Colours neck” - 2018 from 19.02.2018 to 24.02.18 by II year BBA Students.</li>
+                                <li>I year BBA and aviation students here taken to II MB, Bangalore on 04.08.2018 to as distinctive learning experience.</li>
+                                <li>“ The richest people in the world look for look for and build networks. Everyone else looks for work”: Robert Kiyosaki, Author In the way of
+                                 creating opportunity in building career to students, getting connected with alumni. This Programme was organized on15.08.2018 in Ocarina.</li>
+                                <li>Great leaders are almost great simplifiers, who can cut through argument, debate and doubt to offer a solution everybody can understand.Dept.
+                                 has organized inter-class debate competition on 21.08.2018.</li>                             
+                            </ol>
+                            </p>
+
+
+
                         </article>
                         <aside className="page-sidebar  col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1">
 						

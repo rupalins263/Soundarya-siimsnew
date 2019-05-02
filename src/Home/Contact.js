@@ -75,7 +75,7 @@ export default class Downloads extends Component{
                         
                         <section className="widget">
                             <h3 className="title">All Enquiries</h3>
-                            <p className="tel"><i className="fa fa-phone"></i>Tel: 87227600601 / 080-28390260</p>
+                            <p className="tel"><i className="fa fa-phone"></i>Tel: 8722760601 / 080-28390260</p>
                             <p className="email"><i className="fa fa-envelope"></i>Email: <a href="mailto:degreesoundarya@gmail.com">degreesoundarya@gmail.com</a></p>
                         </section>   
 

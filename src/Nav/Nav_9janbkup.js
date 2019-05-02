@@ -12,9 +12,9 @@ export default class Nav extends Component{
                 <div className="container" style={{"text-align":"right"}}>              
             
                     
-                    <div className="other-branch"><a href="http://soundaryainstitutions.in/central">Soundarya Central School</a></div>
-                    <div className="other-branch"><a href="http://soundaryainstitutions.in/school">Soundarya School</a></div>
-                    <div className="other-branch"><a href="http://soundaryainstitutions.in/puc">Soundarya PU College</a></div>
+                    <div className="other-branch"><a href="http://central.soundaryainstitutions.in">Soundarya Central School</a></div>
+                    <div className="other-branch"><a href="http://school.soundaryainstitutions.in">Soundarya School</a></div>
+                    <div className="other-branch"><a href="http://puc.soundaryainstitutions.in">Soundarya PU College</a></div>
                     <div className="other-branch"><span style={{"color":"#fff"}}>Social Connect</span></div>
                     <div className="other-branch"><a href="https://www.facebook.com/Soundarya-Institute-of-Management-Science-519268908134711/" target="_blank"><i className="fa fa-facebook"></i></a></div>
                     <div className="other-branch"><a href="https://www.facebook.com/Soundarya-Institute-of-Management-Science-519268908134711/" target="_blank"><i className="fa fa-linkedin"></i></a></div>
@@ -23,37 +23,32 @@ export default class Nav extends Component{
             </div>
             <div className="header-main container">
                 <div className="col-md-2 col-sm-2">
-                    <a href="/sims/#/" style={{"text-decoration": "none"}}>
+                    <a href="/" style={{"text-decoration": "none"}}>
                         <img id="logo" src="http://zenopsys.net/soundarya_forms/sims/sims_logo.jpg" alt="Logo" style={{"width":"105%"}}/>
                     </a>
                 </div>    
-                <div className="col-md-8 col-sm-8">
-                        <div className="holder pull-right top-links">                            
-                            <a href="/sims/#/Faculty">CURRENT FACULTY &nbsp; |</a>
-                            <a href="/sims/#/Carrer">&nbsp; CAREERS &nbsp; |</a>
-                            <a href="/sims/#/Placements">&nbsp; PLACEMENTS </a>
-                        </div>
-                        <div className="col-md-12 col-sm-12">  
-                        
-                            <h1 style={{"display":"inline-block","color":"#26269c","margin-top":"4%","font-size":"16px","font-family":"'LexiaLight',Georgia,sans-serif"}}>Soundarya Educational Trust</h1>
-              
-                            <br/>
-                            <h1 style={{"display":"inline-block","color":"#1614b9","margin-top":"-1%","font-size":"26px","font-family":"'LexiaLight',Georgia,sans-serif"}}>Soundarya Institute of 
-                            Management &amp; Science</h1>
-                                         
-                        </div>
-                        <a href="/" style={{"text-decoration": "none"}}>
-                            <h1 style={{"display":"inline-block","color":"#26269c","margin-top":"-2%","font-size":"16px","font-family":"'LexiaLight',Georgia,sans-serif"}}>Affiliated to Bangalore University || NAAC Accredited Institution || Approved by Govt. of Karnataka</h1>
-                        </a>
+                <div className="col-md-4 col-sm-4">
+                    <a href="/" style={{"text-decoration": "none"}}>
+                        <h1 style={{"display":"inline-block","margin-top":"10%","font-size":"30px","font-family":"'LexiaLight',Georgia,sans-serif"}}>Soundarya Institute of 
+                        Management &amp; Science</h1>
+                    </a>
                 </div>      
-                <div className="logo col-md-2 col-sm-2">                   
+                <div className="logo col-md-6 col-sm-6">
+					<div className="col-md-8 mt20">
+						<div className="holder pull-right top-links">                            
+							<a href="/#/Faculty">CURRENT FACULTY &nbsp; |</a>
+							<a href="/#/Carrer">&nbsp; CAREERS &nbsp; |</a>
+							<a href="/#/Placements">&nbsp; PLACEMENTS </a>
+						</div>
+					</div>
+                    <div className="col-md-4 mt20">
                         <a href="/" style={{"text-decoration": "none"}}>
-                            <img id="logo" src="http://zenopsys.net/soundarya_forms/sims/logo.jpg" alt="Logo" style={{"margin-top":"10%","width":"75%"}}/>
+                            <img id="logo" src="http://zenopsys.net/soundarya_forms/sims/logo.jpg" alt="Logo" style={{"width":"80%"}}/>
                         </a>
-                    
-                    {/* <div className="col-md-12 mt10">
-                        <a href="/#/Admissions" className="admission-btn btn btn-primary"> ADMISSIONS OPEN &gt;</a>
-                    </div> */ }
+                    </div> 
+					{/* <div className="col-md-12 mt10">
+						<a href="/#/Admissions" className="admission-btn btn btn-primary"> ADMISSIONS OPEN &gt;</a>
+					</div> */ }
                 </div>
             </div>
         </header>
@@ -75,31 +70,27 @@ export default class Nav extends Component{
                         
         
             
-        <li className="nav-item"><a href="/sims/#/">Home</a></li>
+        <li className="nav-item"><a href="/">Home</a></li>
     
                         <li className="nav-item" id="about"><a className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="about.mako#group">About Us<i className="fa fa-angle-down"></i></a>
                             <ul className="dropdown-menu">
                                 
         
-        <li className=""><a href="/sims/#/About">About SIMS</a></li>
-
-
-        <li className=""><a href="/sims/#/VisionMission">Vision & Mission</a></li>
-
+        <li className=""><a href="/#/About">About SIMS</a></li>
     
                                 
         
-        <li className=""><a href="/sims/#/Management">Key Executives</a></li>
+        <li className=""><a href="/#/Management">Key Executives</a></li>
     
 
                                 
         
-        <li className="nav-item"><a href="/sims/#/Faculty">Faculty</a></li>
+        <li className="nav-item"><a href="/#/Faculty">Faculty</a></li>
     
                       
                                 
         
-        <li className="nav-item"><a href="/sims/#/Milestones">Milestones</a></li>
+        <li className="nav-item"><a href="/#/Milestones">Milestones</a></li>
                                 
                             </ul> 
                          </li>                         
@@ -107,19 +98,19 @@ export default class Nav extends Component{
                             <ul className="dropdown-menu">                                
                                 
         
-        <li className="nav-item"><a href="/sims/#/UGCoarse">UG Courses</a></li>
+        <li className="nav-item"><a href="/#/UGCoarse">UG Courses</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/sims/#/PGCoarse">PG Course</a></li>
+        <li className="nav-item"><a href="/#/PGCoarse">PG Course</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/sims/#/Research">Research Facilities</a></li>
+        <li className="nav-item"><a href="/#/Research">Research Facilities</a></li>
                                 
                                 
         
-        <li className="nav-item"><a href="/sims/#/ValueAdded">Value Added Courses</a></li>
+        <li className="nav-item"><a href="/#/ValueAdded">Value Added Courses</a></li>
                                    
                             </ul> 
                          </li>      
@@ -127,23 +118,19 @@ export default class Nav extends Component{
                             <ul className="dropdown-menu">                                
                                 
         
-        <li className="nav-item"><a href="/sims/#/MangementStudy">Management</a></li>
+        <li className="nav-item"><a href="/#/MangementStudy">Management</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/sims/#/Commerce">Commerce</a></li>
+        <li className="nav-item"><a href="/#/Commerce">Commerce</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/sims/#/BCA">BCA</a></li>
-
-
-         <li className="nav-item"><a href="/sims/#/BSC">B.Sc</a></li>
-    
+        <li className="nav-item"><a href="/#/BCA">BCA</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/sims/#/Physical">Physical Education</a></li>
+        <li className="nav-item"><a href="/#/Physical">Physical Education</a></li>
                                    
                             </ul> 
                          </li>    
@@ -151,12 +138,12 @@ export default class Nav extends Component{
                             <ul className="dropdown-menu">                                
                                 
         
-        <li className="nav-item"><a href="/sims/#/Admissions">Admission Process</a></li>
+        <li className="nav-item"><a href="/#/Admissions">Admission Process</a></li>
     
-        <li className="nav-item"><a href="/sims/#/AdmissionsReg">Admission Registration Form</a></li>
+        <li className="nav-item"><a href="/#/AdmissionsReg">Admission Registration Form</a></li>
                        
         
-        <li className="nav-item"><a href="/sims/#/Admissions#eligibility">Eligibility Criteria</a></li>
+        <li className="nav-item"><a href="/#/Admissions#eligibility">Eligibility Criteria</a></li>
     
                               
                             </ul> 
@@ -165,48 +152,48 @@ export default class Nav extends Component{
                             <a className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Campus Life <i className="fa fa-angle-down"></i></a>
                             <ul className="dropdown-menu">
                              
-        <li className="nav-item"><a href="/sims/#/Library">Library</a></li>
+        <li className="nav-item"><a href="/#/Library">Library</a></li>
     
                         
                                 
         
-        <li className="nav-item"><a href="/sims/#/Student">Student Council</a></li>
+        <li className="nav-item"><a href="/#/Student">Student Council</a></li>
       
                                 
         
-        <li className="nav-item"><a href="/sims/#/CommerceClub">Commerce &amp; Management Club</a></li>
+        <li className="nav-item"><a href="/#/CommerceClub">Commerce &amp; Management Club</a></li>
                                 
                                 
         
-        <li className="nav-item"><a href="/sims/#/ITClub">IT Club</a></li>
+        <li className="nav-item"><a href="/#/ITClub">IT Club</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/sims/#/LiteracyClub">Literary Club</a></li>
+        <li className="nav-item"><a href="/#/LiteracyClub">Literary Club</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/sims/#/Sports">Sports Activities</a></li>
+        <li className="nav-item"><a href="/#/Sports">Sports Activities</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/sims/#/Women">Women's Cell</a></li>
+        <li className="nav-item"><a href="/#/Women">Women's Cell</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/sims/#/Nss">National Service Scheme (NSS)</a></li>
+        <li className="nav-item"><a href="/#/Nss">National Service Scheme (NSS)</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/sims/#/Clubs">Clubs &amp; Committee</a></li>
+        <li className="nav-item"><a href="/#/Clubs">Clubs &amp; Committee</a></li>
                                    
                                 
         
-        <li className="nav-item"><a href="/sims/#/Unique">Unique Features</a></li>
+        <li className="nav-item"><a href="/#/Unique">Unique Features</a></li>
     
                                 
         
-        <li className="nav-item"><a href="/sims/#/Hostels">Hostels</a></li>
+        <li className="nav-item"><a href="/#/Hostels">Hostels</a></li>
     
                                        
                                                                
@@ -214,23 +201,23 @@ export default class Nav extends Component{
                          </li>   
                         
         
-        <li className="nav-item"><a href="/sims/#/IQAC">IQAC</a></li>
+        <li className="nav-item"><a href="/#/IQAC">IQAC</a></li>
     
                         
         
-        <li className="nav-item"><a href="/sims/#/Gallery">Gallery</a></li>
+        <li className="nav-item"><a href="/#/Gallery">Gallery</a></li>
     
                         
         
-        <li className="nav-item"><a href="/sims/#/Placements">Placements</a></li>
+        <li className="nav-item"><a href="/#/Placements">Placements</a></li>
     
                         
         
-        <li className="nav-item"><a href="/sims/#/Downloads">Downloads</a></li>
+        <li className="nav-item"><a href="/#/Downloads">Downloads</a></li>
     
                         
         
-        <li className="nav-item"><a href="/sims/#/Contact">Contact Us</a></li>
+        <li className="nav-item"><a href="/#/Contact">Contact Us</a></li>
     
                         </ul>
                 </div>
