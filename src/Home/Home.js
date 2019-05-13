@@ -200,7 +200,7 @@ export default class Home extends Component{
                                         Admissions Registration Form
                                     </a>&nbsp;||&nbsp; */} 
                                      <a target="_blank" href="http://zenopsys.net/soundarya_forms/sims/Prints.pdf" style={{"text-decoration":"none","color":"red","font-weight":"bold"}}>
-                                        Upcoming Event : NSS CAMP - 16 Dec 2018
+                                        Upcoming Event : Graduation Day on 20th May 2019 @ - 9am venue : Ocarina,SIMS
                                     </a>
                                 </marquee></section>
                         </td>

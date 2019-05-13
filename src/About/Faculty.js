@@ -65,7 +65,7 @@ export default class Faculty extends Component{
 											<td>Dept. Of Kannada</td>
 											<td>MA</td>
 											<td>Asst.Prof.</td>
-										</tr>><tr role="row" class="even">
+										</tr><tr role="row" class="even">
 											<td tabindex="0" class="sorting_1">8</td>
 											<td>Mrs.Gayathri Bai R</td>
 											<td>Dept. Of Hindi</td>
