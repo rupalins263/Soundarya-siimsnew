@@ -54,11 +54,11 @@ export default class Gallery extends Component{
                                 <div className="album-cover">
                            
                                         
-                                        <img className="img-responsive" style={{width:"120%",height:"38%"}} src={item.album_url||"http://res.cloudinary.com/dvl9i5pry/image/upload/v1505979469/gallery-default_eplxgr.jpg"} alt=""/>
+                                        <img className="img-responsive" src={item.album_url||"http://res.cloudinary.com/dvl9i5pry/image/upload/v1505979469/gallery-default_eplxgr.jpg"} alt=""/>
                                     
-                                    <div className="desc" style={{height:"20%"}}>
+                                    <div className="desc">
                                         <h4><small>{item.albumname}</small></h4>
-                                        <p style={{height:"20%"}}>{item.album_description} </p>
+                                        <p>{item.album_description} </p>
                                     </div>
                                 </div>
                          </div>

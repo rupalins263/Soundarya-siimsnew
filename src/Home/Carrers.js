@@ -22,7 +22,7 @@ export default class Career extends Component{
                     <div class="row page-row">
                         <div class="jobs-wrapper col-md-8 col-sm-7">  
 
-			   <img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1507037726/Recruitment_g8lehc.jpg"/><br/><br/>
+			                 <img src="http://zenopsys.net/soundarya_forms/sims/downloads/FINALISED.jpg" style={{width:"800px",height:"800px"}} /><br/><br/>
 
          
                      

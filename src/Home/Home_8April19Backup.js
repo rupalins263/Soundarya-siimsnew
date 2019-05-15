@@ -168,100 +168,21 @@ export default class Home extends Component{
         return( 
                 <div className="container content ">
 					    
-								<div id="myCarousel" className="carousel slide" data-ride="carousel" >
+								<div id="myCarousel" className="carousel slide" data-ride="carousel">
+							
+											<ol className="carousel-indicators">
+												{num}
+											</ol>
 
-              {/*  from database vaues are coming
-                  <ol className="carousel-indicators">
-                        {num}
-                      </ol>
+							
+											<div className="carousel-inner">
+									
 
-              
-                      <div className="carousel-inner">
-                  
+											{val}
 
-                      {val}
-
-                        
-                      
-                      </div>
-              */}
-
-							 {/* statically slider images */}
-									<ol className="carousel-indicators">
-                      <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
-                      <li data-target="#myCarousel" data-slide-to="1"></li>
-                      <li data-target="#myCarousel" data-slide-to="2"></li>
-                      <li data-target="#myCarousel" data-slide-to="3"></li>
-                      <li data-target="#myCarousel" data-slide-to="4"></li>
-                      <li data-target="#myCarousel" data-slide-to="5"></li>
-                      <li data-target="#myCarousel" data-slide-to="6"></li>
-                      <li data-target="#myCarousel" data-slide-to="7"></li>
-                      <li data-target="#myCarousel" data-slide-to="8"></li>
-                      <li data-target="#myCarousel" data-slide-to="9"></li>
-                      <li data-target="#myCarousel" data-slide-to="10"></li>
-                      <li data-target="#myCarousel" data-slide-to="11"></li>
-                      <li data-target="#myCarousel" data-slide-to="12"></li>
-                      <li data-target="#myCarousel" data-slide-to="13"></li>
-                  </ol>
-
-
-                  <div className="carousel-inner" >
-                      <div className="item active">
-                          <img src="http://zenopsys.net/soundarya_forms/sims_images/Home/slider/new1.jpeg" alt="" style={{width:"100%",height:500}}/>
-                      </div>
-                      <div className="item">
-                          <img src="http://zenopsys.net/soundarya_forms/sims_images/Home/slider/1.jpg" alt="" style={{width:"100%",height:500}}/>
-                      </div>
-                      <div className="item">
-                          <img src="http://zenopsys.net/soundarya_forms/sims_images/Home/slider/2.jpg" alt="" style={{width:"100%",height:500}}/>
-                      </div>
-                      <div className="item">
-                          <img src="http://zenopsys.net/soundarya_forms/sims_images/Home/slider/3.jpg" alt="" style={{width:"100%",height:500}}/>
-                      </div>
-                      <div className="item">
-                          <img src="http://zenopsys.net/soundarya_forms/sims_images/Home/slider/4.jpg" alt="" style={{width:"100%",height:500}}/>
-                      </div>
-                      <div className="item">
-                          <img src="http://zenopsys.net/soundarya_forms/sims_images/Home/slider/5.jpg" alt="" style={{width:"100%",height:500}}/>
-                      </div>
-                      <div className="item">
-                          <img src="http://zenopsys.net/soundarya_forms/sims_images/Home/slider/6.jpg" alt="" style={{width:"100%",height:500}}/>
-                      </div>
-                      <div className="item">
-                          <img src="http://zenopsys.net/soundarya_forms/sims_images/Home/slider/7.jpg" alt="" style={{width:"100%",height:500}}/>
-                      </div>                    
-                      <div className="item">
-                          <img src="http://zenopsys.net/soundarya_forms/sims_images/Home/slider/9.jpg" alt="" style={{width:"100%",height:500}}/>
-                      </div>
-                      <div className="item">
-                          <img src="http://zenopsys.net/soundarya_forms/sims_images/Home/slider/10.jpg" alt="" style={{width:"100%",height:500}}/>
-                      </div>
-                      <div className="item">
-                          <img src="http://zenopsys.net/soundarya_forms/sims_images/Home/slider/11.jpg" alt="" style={{width:"100%",height:500}}/>
-                      </div>
-                      <div className="item">
-                          <img src="http://zenopsys.net/soundarya_forms/sims_images/Home/slider/12.jpg" alt="" style={{width:"100%",height:500}}/>
-                      </div>
-                      <div className="item">
-                          <img src="http://zenopsys.net/soundarya_forms/sims_images/Home/slider/GOLD MEDAL WEBSITE.jpg" alt="" style={{width:"100%",height:500}}/>
-                      </div>
-                      <div className="item">
-                          <img src="http://zenopsys.net/soundarya_forms/sims_images/Home/slider/GOLD MEDAL WOMEN WEBSITE.jpg" alt="" style={{width:"100%",height:500}}/>
-                      </div>
-                      <div className="item">
-                          <img src="http://zenopsys.net/soundarya_forms/sims_images/Home/slider/13.jpg" alt="" style={{width:"100%",height:500}}/>
-                      </div>
-                      <div className="item">
-                          <img src="http://zenopsys.net/soundarya_forms/sims_images/Home/slider/14.jpg" alt="" style={{width:"100%",height:500}}/>
-                      </div>
-                      <div className="item">
-                          <img src="http://zenopsys.net/soundarya_forms/sims_images/Home/slider/15.jpg" alt="" style={{width:"100%",height:500}}/>
-                      </div>
-
-                  </div>
-
-  	
-
+												
+											
+											</div>
 
 
 									<a className="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -291,18 +212,12 @@ export default class Home extends Component{
                                     {/*<a target="_blank" href="/#/AdmissionsReg" style={{"text-decoration":"none","color":"red","font-weight":"bold"}}>
                                         Admissions Registration Form
                                     </a>&nbsp;||&nbsp; */} 
-<<<<<<< HEAD
-                                     <a target="_blank" href="http://zenopsys.net/soundarya_forms/sims/Prints.pdf" style={{"text-decoration":"none","color":"red","font-weight":"bold"}}>
-                                        Upcoming Event : Graduation Day on 20th May 2019 @ - 9am venue : Ocarina,SIMS
-                                    </a>
-=======
-                                     <a target="_blank" href="/sims/#/AdmissionsReg" style={{"text-decoration":"none","color":"red","font-weight":"bold"}}>
-                                        Admission open for 2019- 20
-                                    </a> {/*&nbsp;|| &nbsp;
-                                    <a target="_blank" href="http://zenopsys.net/soundarya_forms/sims/FINALISED.jpg" style={{"text-decoration":"none","color":"red","font-weight":"bold"}}>
+                                     <a target="_blank" href="#" style={{"text-decoration":"none","color":"red","font-weight":"bold"}}>
+                                        WELCOME TO SOUNDARYA INSTITUTE OF MANAGEMENT & SCIENCE
+                                    </a>&nbsp;|| &nbsp;
+                                     {/*<a target="_blank" href="http://zenopsys.net/soundarya_forms/sims/FINALISED.jpg" style={{"text-decoration":"none","color":"red","font-weight":"bold"}}>
                                         WE ARE RECRUITING!!!!
                                     </a>*/}
->>>>>>> rupali/aboutbrnew`
                                 </marquee></section>
                         </td>
                     </tr>
@@ -389,7 +304,7 @@ export default class Home extends Component{
 				<div className="col-md-3 col-xs-12 program-left">
 					<h4 className="sub-headings">Our Programs</h4>
 					<p>We have introduced 5 new programs this year. Learn More &amp; Apply</p>
-					<a href="/sims/#/UGCoarse" className="btn btn-primary trans-btn"> All Programs &gt;</a>
+					<a href="/#/UGCoarse" className="btn btn-primary trans-btn"> All Programs &gt;</a>
 				</div>
 				   <div id="myCarouseli" className="col-md-9 carousel slide">
                 
@@ -404,15 +319,15 @@ export default class Home extends Component{
                 <div className="carousel-inner">
                     <div className="item active">
                         <div className="row">
-                            <div className="col-sm-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/B com.jpg" alt="Image" /></a>
+                            <div className="col-sm-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bcom_HomeBottomSlideShow.jpg" alt="Image" /></a>
 							<h4 class="program-title">B.Com</h4>
-						                </div>
-                            <div className="col-sm-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/BBA.jpg" alt="Image" /></a>
-							                 <h4 class="program-title">BBA</h4>   
+						    </div>
+                            <div className="col-sm-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bba_HomeBottomSlideShow.jpg" alt="Image" /></a>
+							 <h4 class="program-title">BBA</h4>   
                             </div>
-                            <div className="col-sm-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/BCA.jpg" alt="Image" /></a>
+                            <div className="col-sm-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bca_HomebottomSlideShow.jpg" alt="Image" /></a>
                             <h4 class="program-title">BCA</h4>   
-						                </div>
+						    </div>
                           
                         </div>
                       
@@ -420,13 +335,13 @@ export default class Home extends Component{
                     {/*<!--/item-->*/}
                     <div className="item">
                         <div className="row">
-							<div className="col-sm-4 col-md-4 col-lg-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/BBA.jpg" alt="Image" /></a>
+							<div className="col-sm-4 col-md-4 col-lg-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bba_HomeBottomSlideShow.jpg" alt="Image" /></a>
 								             <h4 class="program-title">BBA</h4>      
 								              </div>
-							 <div className="col-sm-4 col-md-4 col-lg-4"><a ><img style={{width:"117%"}} src="http://zenopsys.net/soundarya_forms/sims_images/Home/MCom.jpg" alt="Image" /></a>
+							 <div className="col-sm-4 col-md-4 col-lg-4"><a ><img style={{width:"117%"}} src="http://zenopsys.net/soundarya_forms/sims_images/Home/mcom_HomebottomSlideShow.jpg" alt="Image" /></a>
                             <h4 class="program-title">M.Com</h4> 
 							</div>
-                             <div className="col-sm-4 col-md-4 col-lg-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/B com.jpg" alt="Image" /></a>
+                             <div className="col-sm-4 col-md-4 col-lg-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bcom_HomeBottomSlideShow.jpg" alt="Image" /></a>
                                 <h4 class="program-title">B.Com</h4> 
 						    </div>
                            
@@ -437,14 +352,14 @@ export default class Home extends Component{
                     {/*<!--/item-->*/}
                     <div className="item">
                         <div className="row">
-							<div className="col-sm-4 col-md-4 col-lg-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/BBA.jpg" alt="Image"/></a>
+							<div className="col-sm-4 col-md-4 col-lg-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bba_HomeBottomSlideShow.jpg" alt="Image"/></a>
 							   <h4 class="program-title">BBA</h4>    
                             </div> 
-                             <div className="col-sm-4 col-md-4 col-lg-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/B com.jpg" alt="Image" /></a>
+                             <div className="col-sm-4 col-md-4 col-lg-4"><a ><img src="http://zenopsys.net/soundarya_forms/sims_images/Home/bcom_HomeBottomSlideShow.jpg" alt="Image" /></a>
                            <h4 class="program-title">B.Com</h4> 
 						    </div>
                             
-							 <div className="col-sm-4 col-md-4 col-lg-4"><a><img style={{width:"117%"}} src="http://zenopsys.net/soundarya_forms/sims_images/Home/MCom.jpg" alt="Image"/></a>
+							 <div className="col-sm-4 col-md-4 col-lg-4"><a><img style={{width:"117%"}} src="http://zenopsys.net/soundarya_forms/sims_images/Home/mcom_HomebottomSlideShow.jpg" alt="Image"/></a>
                            <h4 class="program-title">M.Com</h4> 
 						    </div>
                         </div>
@@ -529,16 +444,16 @@ export default class Home extends Component{
 			<h3 className="heading">Useful Links</h3>
 			<div className="col-md-6 col-xs-12">
 				<ul className="p0" style={{textAlign:"left",listStyleType:"none"}}>
-					<li><a href="/sims/#/AdmissionsReg"><i className="fa fa-caret-right"></i> Admissions</a></li>
-					<li><a href="/sims/#/UGCoarse"><i className="fa fa-caret-right"></i> Courses</a></li>
-					<li><a href="/sims/#/Placements"><i className="fa fa-caret-right"></i> Placements</a></li>
+					<li><a href="/#/Admissions"><i className="fa fa-caret-right"></i> Admissions</a></li>
+					<li><a href="/#/UGCoarse"><i className="fa fa-caret-right"></i> Courses</a></li>
+					<li><a href="/#/Placements"><i className="fa fa-caret-right"></i> Placements</a></li>
 				</ul>
 			</div>
 			<div className="col-md-6 col-xs-12" >
 				<ul className="p0" style={{textAlign:"left",listStyleType:"none"}}>
-					<li><a href="/sims/#/Research"><i className="fa fa-caret-right"></i> Research Facilities</a></li>
-					<li><a href="/sims/#/ValueAdded"><i className="fa fa-caret-right"></i> Value Added Courses</a></li>
-					<li><a href="/sims/#/Downloads"><i className="fa fa-caret-right"></i> Downloads</a></li>
+					<li><a href="/#/Research"><i className="fa fa-caret-right"></i> Research Facilities</a></li>
+					<li><a href="/#/ValueAdded"><i className="fa fa-caret-right"></i> Value Added Courses</a></li>
+					<li><a href="/#/Downloads"><i className="fa fa-caret-right"></i> Downloads</a></li>
 				</ul>
 			</div>
 			<div className="col-md-6 col-xs-12 mt20">

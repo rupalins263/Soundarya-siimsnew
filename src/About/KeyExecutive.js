@@ -57,7 +57,7 @@ export default class KeyExecutive extends Component{
                                                                      </div>                            
                                                                     <div className="col-md-12" style={{"background":"#FCFCFC","padding":"10px 0 10px 10px","margin-top":"20px"}}>       
                                                                                     <div className="col-md-4 row">
-                                                                                        <img src="http://zenopsys.net/soundarya_forms/sims_images/Aboutus/ceo_KeyExecuties.jpg" alt="" style={{"width":"100%"}}/> 
+                                                                                        <img src="http://zenopsys.net/soundarya_forms/sims_images/Aboutus/CEO.jpg" alt="" style={{"width":"100%"}}/> 
                                                                                         <h6 className="mg-name"><strong><span className="desig">Keerthan Kumar</span> - CEO</strong></h6>
                                                                                     </div>
                                                                                     <div className="col-md-8" style={{"padding-right":"0"}}>
@@ -72,7 +72,7 @@ export default class KeyExecutive extends Component{
                                                                     </div> 
                                                                         <div className="col-md-12" style={{"background":"#FCFCFC","padding":"10px 0 10px 10px","margin-top":"20px"}}>       
                                                                                     <div className="col-md-4 row">
-                                                                                        <img src="http://zenopsys.net/soundarya_forms/sims_images/Aboutus/principalph_KeyExecuties.jpg" alt="" style={{"width":"100%"}}/> 
+                                                                                        <img src="http://zenopsys.net/soundarya_forms/sims_images/Aboutus/Principal.jpg" alt="" style={{"width":"100%"}}/> 
                                                                                         <h6 className="mg-name"><strong><span className="desig">Dr. Suresh C Hegadi</span> -Principal</strong></h6>
                                                                                     </div>
                                                                                     <div className="col-md-8" style={{"padding-right":"0"}}>
