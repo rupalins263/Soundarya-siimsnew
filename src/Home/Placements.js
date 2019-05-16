@@ -814,7 +814,7 @@ export default class Home extends Component{
                             <section className="widget">
                                     <h3 className="title">Contact</h3>
                                     <p><b>SIMS</b><br/>Soundarya Nagara, Sidedahalli,<br/> Nagasandra Post, Bangalore-560073</p>
-                                    <p className="tel"><i className="fa fa-phone"></i>Tel: <a href="tel:080 28390260">080-28390260 </a></p>
+                                    <p className="tel"><i className="fa fa-phone"></i>Tel: <a href="#">8722760601 / 080-29510260/ 080-29510261</a></p>
                                     <p className="email"><i className="fa fa-envelope"></i>Email: <a href="mailto:degreesoundarya@gmail.com">degreesoundarya@gmail.com</a></p>
                                 </section> 
                             <section className="widget has-divider">

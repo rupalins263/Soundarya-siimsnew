@@ -22,16 +22,16 @@ export default class Nav extends Component{
                 </div>      
             </div>
             <div className="header-main container">
-                <div className="col-md-2 col-sm-2">
-                    <a href="/sims/#/" style={{"text-decoration": "none"}}>
+                 <div className="col-md-2 col-sm-2">
+                    <a href="/" style={{"text-decoration": "none"}}>
                         <img id="logo" src="http://zenopsys.net/soundarya_forms/sims/sims_logo.jpg" alt="Logo" style={{"width":"105%"}}/>
                     </a>
                 </div>    
                 <div className="col-md-8 col-sm-8">
                         <div className="holder pull-right top-links">                            
-                            <a href="/sims/#/Faculty">CURRENT FACULTY &nbsp; |</a>
-                            <a href="/sims/#/Carrer">&nbsp; CAREERS &nbsp; |</a>
-                            <a href="/sims/#/Placements">&nbsp; PLACEMENTS </a>
+                            <a href="/#/Faculty">CURRENT FACULTY &nbsp; |</a>
+                            <a href="/#/Carrer">&nbsp; CAREERS &nbsp; |</a>
+                            <a href="/#/Placements">&nbsp; PLACEMENTS </a>
                         </div>
                         <div className="col-md-12 col-sm-12">  
                         
@@ -46,19 +46,8 @@ export default class Nav extends Component{
                             <h1 style={{"display":"inline-block","color":"#26269c","margin-top":"-2%","font-size":"16px","font-family":"'LexiaLight',Georgia,sans-serif"}}>Affiliated to Bangalore University || NAAC Accredited Institution || Approved by Govt. of Karnataka</h1>
                         </a>
                 </div>      
-<<<<<<< HEAD
-                <div className="logo col-md-6 col-sm-6">
-					<div className="col-md-8 mt20">
-						<div className="holder pull-right top-links">                            
-							<a href="/sims/#/Faculty">CURRENT FACULTY &nbsp; |</a>
-							<a href="/sims/#/Carrer">&nbsp; CAREERS &nbsp; |</a>
-							<a href="/sims/#/Placements">&nbsp; PLACEMENTS </a>
-						</div>
-					</div>
-                    <div className="col-md-4 mt20">
-=======
-                <div className="logo col-md-2 col-sm-2">                   
->>>>>>> rupali/aboutbrnew`
+
+               <div className="logo col-md-2 col-sm-2">                   
                         <a href="/" style={{"text-decoration": "none"}}>
                             <img id="logo" src="http://zenopsys.net/soundarya_forms/sims/logo.jpg" alt="Logo" style={{"margin-top":"10%","width":"75%"}}/>
                         </a>
@@ -70,7 +59,6 @@ export default class Nav extends Component{
             </div>
         </header>
          {/* Nav Bar*/}
-
 
          <nav className="main-nav" role="navigation" style={{"margin-bottom":"5px"}}>
             <div className="container">
@@ -94,13 +82,12 @@ export default class Nav extends Component{
                                 
         
         <li className=""><a href="/sims/#/About">About SIMS</a></li>
-<<<<<<< HEAD
-=======
+
+
 
 
         <li className=""><a href="/sims/#/VisionMission">Vision & Mission</a></li>
 
->>>>>>> rupali/aboutbrnew`
     
                                 
         
@@ -151,13 +138,12 @@ export default class Nav extends Component{
                                 
         
         <li className="nav-item"><a href="/sims/#/BCA">BCA</a></li>
-<<<<<<< HEAD
-=======
+
 
 
          <li className="nav-item"><a href="/sims/#/BSC">B.Sc</a></li>
     
->>>>>>> rupali/aboutbrnew`
+
     
                                 
         

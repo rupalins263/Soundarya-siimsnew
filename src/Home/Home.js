@@ -291,18 +291,18 @@ export default class Home extends Component{
                                     {/*<a target="_blank" href="/#/AdmissionsReg" style={{"text-decoration":"none","color":"red","font-weight":"bold"}}>
                                         Admissions Registration Form
                                     </a>&nbsp;||&nbsp; */} 
-<<<<<<< HEAD
+
                                      <a target="_blank" href="http://zenopsys.net/soundarya_forms/sims/Prints.pdf" style={{"text-decoration":"none","color":"red","font-weight":"bold"}}>
                                         Upcoming Event : Graduation Day on 20th May 2019 @ - 9am venue : Ocarina,SIMS
                                     </a>
-=======
+
                                      <a target="_blank" href="/sims/#/AdmissionsReg" style={{"text-decoration":"none","color":"red","font-weight":"bold"}}>
                                         Admission open for 2019- 20
                                     </a> {/*&nbsp;|| &nbsp;
                                     <a target="_blank" href="http://zenopsys.net/soundarya_forms/sims/FINALISED.jpg" style={{"text-decoration":"none","color":"red","font-weight":"bold"}}>
                                         WE ARE RECRUITING!!!!
                                     </a>*/}
->>>>>>> rupali/aboutbrnew`
+
                                 </marquee></section>
                         </td>
                     </tr>
